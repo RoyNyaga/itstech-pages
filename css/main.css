@@ -5,6 +5,7 @@
 /*font-family: 'Noto Serif', serif; navlinks*/
 body{
 	font-family: 'Bree Serif', serif;
+	background: #f3f8f9;
 }
 
 .bold{
@@ -15,7 +16,15 @@ body{
 	font-family: 'Patua One', cursive;
 }
 
+.links-general-slide-right{
+	color: #00ace0;
+	transition: all 1s ease-in-out;
+}
 
+.links-general-slide-right:hover {
+	color: #00ace0;
+	transform: translateX(20px);
+}
 
 
 /*############### Header #################3*/
@@ -91,5 +100,28 @@ body{
 	transform: translateY(-10px);
 }
 
+/*############# Home page section #########*/
+.fa-eye{
+	font-size: 4em;
+	color: #274d58;
+}
 
+#shift-up-link{
+	position: relative;
+	bottom: 20px;
+	padding-left: 10px;
+}
 
+#home-page-service-1{
+	background: red;
+	border: 2px solid black;
+	height: 20vh;
+}
+
+.home-page-service-content{
+	background: white;
+}
+
+.home-page-service-content:hover{
+	opacity: 0.5;
+}

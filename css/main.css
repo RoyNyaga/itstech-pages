@@ -8,6 +8,23 @@ body{
 	background: #f3f8f9;
 }
 
+.background-button-link{
+	padding: 10px;
+	border: 2px solid #aac1c7;
+	color: #aac1c7;
+	transition: background 1s ease-in-out;
+}
+
+.background-button-link:hover{
+	background: #274d58;
+	text-decoration: none;
+	color: #aac1c7;
+}
+
+.genral-font-color{
+	color: #6f797b;
+}
+
 .bold{
 	font-weight: 700;
 }
@@ -113,15 +130,92 @@ body{
 }
 
 #home-page-service-1{
-	background: red;
-	border: 2px solid black;
+	background: url(../images/photo-of-men-doing-fist-bump-3184302.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;	
+}
+
+#home-page-service-2{
+	background: url(../images/fashion-art-coffee-macbook-pro-57690.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;
+}
+
+#home-page-service-3{
+	background: url(../images/silver-imac-displaying-collage-photos-1779487.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;
+}
+
+#home-page-service-4{
+	background: url(../images/apple-devices-cellphone-close-up-electronics-341523.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
 	height: 20vh;
 }
 
 .home-page-service-content{
 	background: white;
+	transition: all 2s ease-in-out;
 }
 
 .home-page-service-content:hover{
 	opacity: 0.5;
 }
+
+#home-level-three{
+	background: linear-gradient(rgba(9,48,60,0.5), rgba(9,48,60,0.5)),url(../images/fashion-art-coffee-macbook-pro-57690.jpg)center/cover fixed no-repeat;
+}
+
+#quotes{
+	color: whitesmoke;
+	background: url(https://res.cloudinary.com/it-s-tech/image/upload/v1590288503/bavaria-munich-octoberfest-oktoberfest-9827_fgrawx.jpg) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.quotes-background {
+	background: rgba(9,48,60,0.5);
+}
+
+#quotes img{
+	width: 200px;
+	background: #a0cee2;
+}
+
+#quotes blockquote {
+	border-left: 0;
+	line-height: 2;
+	font-size: 2;
+	font-size: 19px;
+}
+
+#quotes blockquote footer{
+	color: #a9d0e0;
+	font-size: 16px;
+}
+
+#quotes .fa{
+	color: #a0cee2;
+	font-size: 40px;
+	margin: 0 10px;
+}
+
+#numbers{
+	padding: 40px;
+	background: linear-gradient(rgba(9,48,60,0.5), rgba(9,48,60,0.5)),url(../images/meter-at-0000-1364700.jpg)center/cover fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+#numbers .fa{
+	font-size: 40px;
+	color: #89d7ef;
+}
+
+
+
+
+

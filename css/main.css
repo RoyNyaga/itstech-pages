@@ -8,6 +8,10 @@ body{
 	background: #f3f8f9;
 }
 
+.blue-text {
+	color: #00ace0;
+}
+
 .background-button-link{
 	padding: 10px;
 	border: 2px solid #aac1c7;
@@ -39,8 +43,17 @@ body{
 }
 
 .links-general-slide-right:hover {
-	color: #00ace0;
+	color: #37555f;
 	transform: translateX(20px);
+}
+
+.blue-button{
+	padding: 10px;
+	color: white;
+	background: #00ace0;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 20px;
 }
 
 
@@ -215,7 +228,57 @@ body{
 	color: #89d7ef;
 }
 
+/*#############About page###########*/
+#about-page-header{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593377850/Group-Itstech/top-view-photo-of-people-near-wooden-table-3183150_aij8bj.jpg) center/cover no-repeat fixed;
+	height: 70vh;
+}
+
+.promise-picture {
+	height: 80vh;
+	background: url(https://res.cloudinary.com/it-s-tech/image/upload/v1593380783/Group-Itstech/fashion-art-coffee-macbook-pro-57690_cbfqnr.jpg) center/cover no-repeat fixed;
+	border-top: 600px solid transparent;
+	border-right: 150px solid whitesmoke;
+}
+
+.promise-text {
+	height: 600px;
+	background: whitesmoke;
+	padding: 40px 20px;
+}
+
+.promise-icons {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+#promise .fa{
+	color: #F15025;
+	font-size: 40px;
+}
+
+.about-page-quote{
+	font-size: 3em;
+	color: ;
+}
+
+.about-page-numbers{
+	padding: 0 20px;
+	font-size: 3em;
+	background: #00ace038;
+	color: #00ace0;
+	border-radius: 50%;
+
+}
 
 
 
+.about-page-domain-divs{
+	background: #eaf3f5;
+}
 
+/*##############3Services section#############3*/
+#services-page-header{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593502214/Group-Itstech/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355_uuopfr.jpg) center/cover no-repeat fixed;
+}

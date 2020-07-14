@@ -282,3 +282,9 @@ body{
 	height: 80vh;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593502214/Group-Itstech/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355_uuopfr.jpg) center/cover no-repeat fixed;
 }
+
+/*###########3Clients section############*/
+#client-page-header{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1594687559/Group-Itstech/man-and-woman-near-table-3184465_rzmldr.jpg) center/cover no-repeat fixed;
+}
